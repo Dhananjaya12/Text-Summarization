@@ -1,0 +1,15 @@
+algorithms: ["NLTK","SUMY","BERTEXT","BARTABS"] ###"NLTK","SUMY","BERTEXT","BARTABS"
+
+text_file: "input.txt"
+
+bonus_words : ("significant", "great", "famous", "glorious", "interesting", "famous", "optimal", "super")
+stigma_words : ("disease", "depression", "injuries"," hardly", "impossible")
+null_words : ("with", "be", "from", "or", "and", "every", "why", "here")
+
+sumy_algorithms: ["Edmundson","LexRank","Lsa","Luhn","TextRank","KL"] ###"Edmundson","LexRank","Lsa","Luhn","TextRank","KL"
+bart_abs_model : ["facebook/bart-large-cnn"] ###"facebook/bart-large-cnn", "facebook/bart-large-xsum"
+
+SUMMARY_LENGTH: {'type':"PERCENTAGE",'value':30} ### {type:"COUNT",value:10} || {'type':"PERCENTAGE",'value':10}
+
+# min_length : 5
+# max_length : 100
