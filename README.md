@@ -6,14 +6,14 @@
 
     ```bash
     # Create a virtual environment
-    python -m venv venv
+    python -m venv summarizerenv
 
     # Activate the virtual environment
     # On Windows
-    venv\Scripts\activate
+    summarizerenv\Scripts\activate
 
     # On macOS/Linux
-    source venv/bin/activate
+    source summarizerenv/bin/activate
     ```
 
 2. **Install Dependencies**: With the virtual environment activated, install the required packages using:
