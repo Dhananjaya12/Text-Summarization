@@ -38,9 +38,3 @@
     python main.py
     ```
 
-6. **Deactivate the Virtual Environment**: When you're finished, deactivate the virtual environment with:
-
-    ```bash
-    deactivate
-    ```
-
